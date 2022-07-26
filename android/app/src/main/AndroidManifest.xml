@@ -44,7 +44,7 @@
     <application
         android:name=".MainApplication"
         android:allowBackup="false"
-        android:icon="@drawable/assets_scan"
+        android:icon="@drawable/spoon"
         android:label="Food List"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"

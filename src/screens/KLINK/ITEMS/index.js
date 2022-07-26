@@ -262,8 +262,10 @@ class ItemsForm extends Component {
 
 
             <View style={{alignSelf: "center", flexDirection: "row", justifyContent: "center", width: "90%"}}>
+          
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -279,9 +281,21 @@ class ItemsForm extends Component {
                   📺
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  Live Show
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -297,9 +311,21 @@ class ItemsForm extends Component {
                   📡
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  Live Chat
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -315,9 +341,21 @@ class ItemsForm extends Component {
                   📖
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  E-Commerse
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -333,6 +371,27 @@ class ItemsForm extends Component {
                   💼
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  Community
+                </Text>
+              </View>
+
+            </View>
+
+
+
+
+
+
+
+            <View style={{paddingTop: 20, marginTop: 20}}>
             </View>
 
 
@@ -343,17 +402,11 @@ class ItemsForm extends Component {
 
 
 
-
-
-
-
-
-
-
-
             <View style={{alignSelf: "center", flexDirection: "row", justifyContent: "center", width: "90%"}}>
+          
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#0000FF", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#0000FF", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -369,9 +422,21 @@ class ItemsForm extends Component {
                   👤
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  My Profile
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#0000FF", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#0000FF", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -384,12 +449,96 @@ class ItemsForm extends Component {
                     color: "black" 
                   }}
                 >
-                  ☂️
+                  💾
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  Saved Character
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#0000FF", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#0000FF", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                onPress={()=>
+                  Alert.alert("TES TES TES")    
+                }
+              >
+                <Text 
+                  style={{ 
+                    fontSize: 25, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  📖
+                </Text>
+              </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  Documents
+                </Text>
+              </View>
+
+              <View>
+              <TouchableOpacity
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#0000FF", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                onPress={()=>
+                  Alert.alert("TES TES TES")    
+                }
+              >
+                <Text 
+                  style={{ 
+                    fontSize: 25, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  📝
+                </Text>
+              </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  My List
+                </Text>
+              </View>
+
+            </View>
+
+
+
+            <View style={{paddingTop: 20, marginTop: 20}}>
+            </View>
+
+
+
+
+            <View style={{alignSelf: "center", flexDirection: "row", justifyContent: "center", width: "90%"}}>
+          
+              <View>
+              <TouchableOpacity
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#008000", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -405,9 +554,21 @@ class ItemsForm extends Component {
                   🛒
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  My Chart
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#0000FF", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#008000", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -420,19 +581,24 @@ class ItemsForm extends Component {
                     color: "black" 
                   }}
                 >
-                  🏷️
+                  🎞️
                 </Text>
               </TouchableOpacity>
-            </View>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  My Photo Gallery
+                </Text>
+              </View>
 
-
-
-
-
-
-            <View style={{alignSelf: "center", flexDirection: "row", justifyContent: "center", width: "90%"}}>
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#008000", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#008000", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -445,12 +611,24 @@ class ItemsForm extends Component {
                     color: "black" 
                   }}
                 >
-                  🗝️
+                  📖
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  History
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#008000", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#DCDCDC", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -463,47 +641,27 @@ class ItemsForm extends Component {
                     color: "black" 
                   }}
                 >
-                  💰
+                  💼
                 </Text>
               </TouchableOpacity>
-
-              <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#008000", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
-                onPress={()=>
-                  Alert.alert("TES TES TES")    
-                }
-              >
                 <Text 
                   style={{ 
-                    fontSize: 25, 
+                    fontSize: 5, 
                     alignSelf: "center", 
                     fontWeight: "bold", 
                     color: "black" 
                   }}
                 >
-                  ⚖️
+                  Bussiness List
                 </Text>
-              </TouchableOpacity>
+              </View>
 
-              <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#008000", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
-                onPress={()=>
-                  Alert.alert("TES TES TES")    
-                }
-              >
-                <Text 
-                  style={{ 
-                    fontSize: 25, 
-                    alignSelf: "center", 
-                    fontWeight: "bold", 
-                    color: "black" 
-                  }}
-                >
-                  💎
-                </Text>
-              </TouchableOpacity>
             </View>
             
+
+
+
+
                                             
           </View>
 
@@ -539,11 +697,10 @@ class ItemsForm extends Component {
         <Content padder enableResetScrollToCoords={false}>
           <View style={{flexDirection: "row", width: "100%", height: "100%"}}>
                                             <List
-
                                               dataArray={this.props.data_items}
                                               renderRow={(data, sectionID, rowID) =>                                    
 
-                                <View style={{ borderRadius: 15, backgroundColor: "#A52A2A", borderColor: "#A52A2A", borderWidth: 2, alignSelf: "center", width: "90%", justifyContent: "center", paddingLeft: 20, marginLeft: 20, paddingRight: 20, marginRight: 20, paddingTop: 20, marginTop: 20, paddingBottom: 20, marginBottom: 20 }}>
+                                <View style={{ width: "90%", borderRadius: 15, backgroundColor: "#A52A2A", alignSelf: "center", justifyContent: "center", paddingLeft: 20, marginLeft: 20, paddingRight: 20, marginRight: 20, paddingTop: 20, marginTop: 20, paddingBottom: 20, marginBottom: 20 }}>
                                   <TouchableOpacity onPress={()=>
                                     
                                       this.setState({
@@ -599,7 +756,7 @@ class ItemsForm extends Component {
         <View style={{backgroundColor: "transparent", height: "15%", width: "100%", justifyContent: "center"}}>
           <View style={{alignSelf: "center",borderColor: "black", borderLeftWidth: 1,borderRightWidth: 1,borderTopWidth: 3, borderRadius: 65, height: "90%", width: "95%"}}>
             <TouchableOpacity
-              style={{borderRadius: 25, backgroundColor: "black", alignSelf: "center", height: 0, width:"20%", paddingBottom: 10, marginBottom: 10, borderWidth: 2, borderColor: "black"}}
+              style={{borderRadius: 25, backgroundColor: "black", alignSelf: "center", height: 0, width:"20%", paddingBottom: 10, marginBottom: 10, borderWidth: 0, borderColor: "black"}}
               onPress={()=>
                 this.setState({menu: true})
               }
@@ -608,8 +765,10 @@ class ItemsForm extends Component {
             </TouchableOpacity>
 
             <View style={{alignSelf: "center", flexDirection: "row", justifyContent: "center", width: "90%"}}>
+          
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -625,9 +784,21 @@ class ItemsForm extends Component {
                   📺
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  Live Show
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -643,9 +814,21 @@ class ItemsForm extends Component {
                   📡
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  Live Chat
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -661,9 +844,21 @@ class ItemsForm extends Component {
                   📖
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  E-Commerse
+                </Text>
+              </View>
 
+              <View>
               <TouchableOpacity
-                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 10, marginBottom: 10, paddingTop: 10, marginTop: 10, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
+                style={{width: 65 ,height: 65,borderRadius: 50, backgroundColor: "#A52A2A", alignSelf: "center", paddingBottom: 3, marginBottom: 3, paddingTop: 3, marginTop: 3, paddingRight: 8, marginRight: 8, paddingLeft: 8, marginLeft: 8}}
                 onPress={()=>
                   Alert.alert("TES TES TES")    
                 }
@@ -679,6 +874,18 @@ class ItemsForm extends Component {
                   💼
                 </Text>
               </TouchableOpacity>
+                <Text 
+                  style={{ 
+                    fontSize: 5, 
+                    alignSelf: "center", 
+                    fontWeight: "bold", 
+                    color: "black" 
+                  }}
+                >
+                  Community
+                </Text>
+              </View>
+
             </View>
 
           </View>

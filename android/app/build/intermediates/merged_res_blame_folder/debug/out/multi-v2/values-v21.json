@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\TESKLINK\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\TESLISTFOOD\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
-                {
-                    "source": "C:\\TESKLINK\\android\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "313"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "354",
-                        "endLines": "11",
-                        "endColumns": "12",
-                        "endOffsets": "650"
-                    }
-                },
                 {
                     "source": "C:\\Users\\furqo\\.gradle\\caches\\transforms-2\\files-2.1\\b52031778c3730d2e5cb2a6c88a2a2c6\\media-1.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
@@ -58,6 +39,25 @@
                         "endLines": "2,3,4,5,269,270,277,281,287,292",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,218,285,349,19674,19800,20257,20553,20892,21230"
+                    }
+                },
+                {
+                    "source": "C:\\TESLISTFOOD\\android\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "313"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "354",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "650"
                     }
                 },
                 {

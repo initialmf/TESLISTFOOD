@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\TESKLINK\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "C:\\TESLISTFOOD\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\furqo\\.gradle\\caches\\transforms-2\\files-2.1\\59fb4266c7597ac781f6eb618659d6c1\\jetified-play-services-ads-16.0.0\\res\\values-fr-rCA\\values.xml",

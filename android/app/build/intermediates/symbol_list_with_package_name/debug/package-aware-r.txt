@@ -833,6 +833,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable overlay
 drawable print_image
+drawable spoon
 drawable src_screens_kobe_project_manisproses_contoh
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

@@ -52,7 +52,7 @@
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@drawable/assets_scan"
+        android:icon="@drawable/spoon"
         android:label="Food List"
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/AppTheme"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\TESKLINK\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\TESLISTFOOD\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\furqo\\.gradle\\caches\\transforms-2\\files-2.1\\ec2a639313b576d820886b92c65549de\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
